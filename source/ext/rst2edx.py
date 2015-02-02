@@ -8,7 +8,7 @@ from sphinx.builders import Builder
 from sphinx.util.osutil import ensuredir, os_path
 from sphinx.writers.xml import XMLWriter, PseudoXMLWriter
 
-class dsa2edxBuilder(Builder):
+class rst2edxBuilder(Builder):
     name = "edx"
     format = 'edx'
     out_suffix = '.xml'
@@ -73,6 +73,5 @@ class dsa2edxBuilder(Builder):
         pass
     
 def setup(app):
-    print "Banana"
-    app.add_builder(dsa2edxBuilder)
+    app.add_builder(rst2edxBuilder)
     

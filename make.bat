@@ -34,7 +34,7 @@ if "%1" == "help" (
 	echo.  gettext    to make PO message catalogs
 	echo.  changes    to make an overview over all changed/added/deprecated items
 	echo.  xml        to make Docutils-native XML files
-    echo.  edx        to make Docutils-native EDX XML files
+    echo.  edx        to make EDX XML files
 	echo.  pseudoxml  to make pseudoxml-XML files for display purposes
 	echo.  linkcheck  to check all external links for integrity
 	echo.  doctest    to run all doctests embedded in the documentation if enabled

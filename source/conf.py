@@ -36,7 +36,7 @@ extensions = [
     'sphinx.ext.pngmath',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
-    'dsa2edx',
+    'rst2edx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
